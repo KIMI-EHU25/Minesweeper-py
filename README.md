@@ -1,22 +1,22 @@
-# Minesweeper (Python)
+# Minesweeper
 
 A Python implementation of the classic **Minesweeper** game.  
-This project focuses on the **core game logic**, including mine placement, board generation, and cell-revealing behavior.
+This project focuses on implementing the **core game logic**, including board generation, mine placement, and cell-revealing mechanics.
 
 ---
 
 ## 🎮 Features
 
 - Grid-based Minesweeper board
-- Randomized mine placement
+- Random mine placement
 - Adjacent mine counting
-- Recursive reveal of empty cells
-- Win and loss detection
-- Console-based gameplay logic
+- Recursive revealing of empty cells
+- Game win and loss detection
+- Console-based gameplay
 
 ---
 
-## 🛠️ Built With
+## 🛠️ Technologies Used
 
 - **Python 3**
 - Standard Python libraries only
@@ -24,53 +24,19 @@ This project focuses on the **core game logic**, including mine placement, board
 ---
 
 ## 📂 Project Structure
-.
-├── minesweeper.py
-└── README.md
-
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Python 3.8 or higher
+
+- Python 3.8 or higher installed on your machine
 
 ### Running the Game
 
+Clone the repository and run the game:
+
 ```bash
+git clone https://github.com/newwereper/Minesweeper.git
+cd Minesweeper
 python minesweeper.py
-
-🧠 How the Game Works
-	•	The board is initialized with a fixed grid size
-	•	Mines are placed randomly across the board
-	•	Each cell stores the number of adjacent mines
-	•	When a cell is revealed:
-	•	If it is a mine → game over
-	•	If it has zero adjacent mines → neighboring cells are revealed automatically
-	•	The player wins by revealing all non-mine cells
-
-📌 Future Improvements
-	•	Flagging mines
-	•	Difficulty levels (easy / medium / hard)
-	•	Improved user input validation
-	•	Graphical interface (GUI)
-	•	Timer and score tracking
-
-📄 License
-
-This project is intended for educational and personal use.
-
-✨ Author
-
-Created by KIMI-EHU25
-
----
-
-### ✅ If you want it **even better**
-I can:
-- Rewrite this README to match your **exact functions and variables**
-- Add **docstring-based documentation**
-- Convert it into a **portfolio-ready project**
-- Add usage examples based on your input format
-
-If you want that, paste the contents of `minesweeper.py` here and I’ll tailor it precisely.
