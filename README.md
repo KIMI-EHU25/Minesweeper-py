@@ -24,8 +24,9 @@ This project focuses on implementing the **core game logic**, including board ge
 ---
 
 ## 📂 Project Structure
+
 Minesweeper/
-├── pycache/          # Python bytecode cache (auto-generated)
+```├── pycache/          # Python bytecode cache (auto-generated)
 ├── .venv/                # Virtual environment (not required to run)
 ├── assets/
 │   ├── flag.png          # Flag image
@@ -35,6 +36,7 @@ Minesweeper/
 ├── game.py               # Game controller and rules
 ├── minesweeper.py        # Main entry point
 └── README.md
+```
 ---
 
 ## 🚀 Getting Started
